@@ -22,8 +22,9 @@ public class Solution203 {
 
     private static class ListNode {
 
-        int val;
-        ListNode next;
+        private int val;
+
+        private ListNode next;
 
         ListNode() {
         }
