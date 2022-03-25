@@ -5,7 +5,7 @@ package com.raredall.array;
  *
  * @author Raredall
  */
-class Solution977 {
+public class Solution977 {
     public int[] sortedSquares(int[] nums) {
         int length = nums.length;
         int[] res = new int[length];
