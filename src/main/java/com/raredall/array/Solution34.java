@@ -6,6 +6,7 @@ package com.raredall.array;
  * @author Raredall
  */
 public class Solution34 {
+
     public int[] searchRange(int[] nums, int target) {
         int left = binarySearch(nums, target, true);
         int right = binarySearch(nums, target, false) - 1;
@@ -30,4 +31,5 @@ public class Solution34 {
         }
         return ans;
     }
+
 }

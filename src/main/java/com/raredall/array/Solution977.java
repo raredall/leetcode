@@ -6,6 +6,7 @@ package com.raredall.array;
  * @author Raredall
  */
 public class Solution977 {
+
     public int[] sortedSquares(int[] nums) {
         int length = nums.length;
         int[] res = new int[length];
@@ -22,4 +23,5 @@ public class Solution977 {
         }
         return res;
     }
+
 }

@@ -6,6 +6,7 @@ package com.raredall.array;
  * @author Raredall
  */
 public class Solution35 {
+
     public int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
@@ -21,4 +22,5 @@ public class Solution35 {
         }
         return left;
     }
+
 }

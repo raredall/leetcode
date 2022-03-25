@@ -6,6 +6,7 @@ package com.raredall.array;
  * @author Raredall
  */
 public class Solution209 {
+
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
         int sum = 0;
@@ -19,4 +20,5 @@ public class Solution209 {
         }
         return res == Integer.MAX_VALUE ? 0 : res;
     }
+
 }

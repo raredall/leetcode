@@ -6,6 +6,7 @@ package com.raredall.array;
  * @author Raredall
  */
 public class Solution59 {
+
     public int[][] generateMatrix(int n) {
         int left = 0;
         int right = n - 1;
@@ -38,4 +39,5 @@ public class Solution59 {
 
         return res;
     }
+
 }
