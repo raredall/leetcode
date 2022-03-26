@@ -46,7 +46,7 @@ class MyLinkedList {
             return;
         }
         if (index < 0) {
-            addAtHead(val);
+            index = 0;
         }
 
         Node cur = head;
