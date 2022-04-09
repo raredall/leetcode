@@ -1,4 +1,4 @@
-package com.raredall.hashtable;
+package com.raredall.string;
 
 /**
  * 344. 反转字符串
