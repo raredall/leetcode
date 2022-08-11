@@ -10,7 +10,7 @@ import java.util.Queue;
  *
  * @author Raredall
  */
-public class Solution109 {
+public class Solution199 {
 
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
